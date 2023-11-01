@@ -4,7 +4,7 @@ function Movielist(props){
         // const{title,plot,poster,rating,price,star,fav,isInCart}=this.state;
         
         const{moviesArr,addStar,changeCart,changeFav,decStar}=props;
-        console.log(props);
+        
         return(
             <>
             {moviesArr.map((movie)=>

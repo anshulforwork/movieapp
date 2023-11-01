@@ -35,7 +35,7 @@ class Navbar extends React.Component{
                 </div>
                 <div>
                     <img src="https://cdn-icons-png.flaticon.com/128/1136/1136140.png"alt="cart icon" style={style.cartIcon}/>
-                    <CartCount color="orange" show={true}>{cartCount}</CartCount>
+                    <CartCount color="orange" show={"true"}>{cartCount}</CartCount>
 
                 </div>
             </Nav>
